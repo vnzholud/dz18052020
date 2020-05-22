@@ -4,8 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         //Создаем препятствия
-        //Treadmill treadmill = new Treadmill(110000);
-        //Wall wall = new Wall(3);
+
 
         Obstracle[] obstracles = {
 
@@ -13,11 +12,9 @@ public class Main {
                 new Wall(1)
         };
 
-
+       
         // Создаем участников соревнований
-        //Cat cat1 = new Cat("Барcик", 300, 3);
-        //Human human1 = new Human("Боря", 5000, 2);
-        //Robot robot1 = new Robot("Федя", 10000, 5);
+
 
         Moving [] competitors = {
 

@@ -2,6 +2,7 @@ package dz18052020;
 
 public class Human implements Moving{
 
+
     private String name;
     private int maxRunDistans;
     private int maxJumpHeight;
@@ -16,11 +17,11 @@ public class Human implements Moving{
     public void run(int dist) {
 
             if (dist<=maxRunDistans){
-                System.out.println("Человек "+name+" бежит дистанцию в "+dist+" метров");
+                System.out.println("Человек  "+name+" бежит дистанцию в "+dist+" метров");
 
             } else {
 
-                System.out.println("Человек "+name+" не может пробежать дистанцию в "+dist+" метров");
+                System.out.println("Человек  "+name+"  не может пробежать дистанцию в  "+dist+" метров");
             }
 
 
@@ -53,4 +54,5 @@ public class Human implements Moving{
     public int getMaxJumpHeight() {
         return maxJumpHeight;
     }
+
 }
